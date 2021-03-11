@@ -1,0 +1,3 @@
+server.properties
+ops.json
+whitelist.json
