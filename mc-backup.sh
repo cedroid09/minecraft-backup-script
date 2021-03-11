@@ -4,6 +4,7 @@ _author="cedroid09"
 _desc="Automatic Minecraft backup script"
 _version="1.0"
 
+# Repo parameter
 repo_path="/your/cloned/git/repo/path" #Path to your git repo
 game_path="/opt/sw/games/minecraft/" #Path to your minecraft Installation
 rem_repo="github.com/<username|organisation>/<your_repo>.git" #Git remote repo url
@@ -12,7 +13,7 @@ date="$(date)"
 #Git authentication
 git_usr="your_username" 
 git_pwd="your_gittoken"
-config_list="config_backup.txt" #Additional files to backup
+config_list="backup_list.txt" #Additional files to backup
 
 # Check prerequisite
 
